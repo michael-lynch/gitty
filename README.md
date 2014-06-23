@@ -67,3 +67,22 @@ $(function() {
 	});
 	
 ```
+
+#####Example Output:
+
+```html
+<ul class="repositories">
+	<li class="name-of-repository">
+		<a class="gitty-name" title="name of repository" href="https://github.com/username/name-of-repository">name of repository</a>
+		<span class="language">javascript</span>
+		<span class="description">This is where the repository description would go.</span>
+	</li>
+	<li class="name-of-repository">
+		<a class="gitty-name" title="name of repository" href="https://github.com/username/name-of-repository">name of repository</a>
+		<span class="language">javascript</span>
+		<span class="description">This is where the repository description would go.</span>
+	</li>
+</ul>
+```
+
+<em>* Note that each list item has it's own unique class based on the name of the repository, so if you want you can style each list item individually.</em>
