@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<meta charset="utf-8">
+
+	<title>Gitty jQuery Plugin</title>
+	
+	<meta name="description" content="A simple, lightweight jQuery plugin used to display a Github user's repositories.">
+	
+	<meta name="author" content="http://michaelynch">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- for presentation only -->
+	<link rel="stylesheet" type="text/css" media="screen" href="../src/css/style.css">
+	
+</head>
+
+<body lang="en">
+
+	<ul class="repos"></ul>
+	
+	<script src="../src/lib/jquery.1.9.1.min.js"></script>
+	
+	<script src="../src/gitty.js"></script>
+	
+	<script>
+	
+		$(function() {
+		
+			$('.repos').gitty({
+				username: 'michael-lynch',
+				limit: 5,
+				success: function() {
+					console.log('The request was successful!');
+				},
+				error: function() {
+					console.log('The request failed.');
+				}
+			});	
+			
+		});
+	
+	</script>
+
+</body>
+	
+</html>
