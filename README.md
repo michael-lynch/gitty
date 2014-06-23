@@ -85,4 +85,4 @@ $(function() {
 </ul>
 ```
 
-<em>* Note that each list item has it's own unique class based on the name of the repository, so if you want you can style each list item individually.</em>
+<em>* Note that each list item has it's own unique class based on the name of the repository, so you can style each list item individually.</em>
