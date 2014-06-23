@@ -8,9 +8,11 @@ A simple, lightweight jQuery plugin used to display a Github user's repositories
 
 Include jQuery and the plugin in the head or footer of your page.
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+```html
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     
-    <script src="/js/plugins/gitty.js"></script>
+<script src="/js/plugins/gitty.js"></script>
+```
     
 Create a list where the repositories will display.
 
