@@ -83,7 +83,7 @@ Licensed under the MIT license
     				
     				var repo = '<li class="'+data.data[i].name+'">';
 
-        			repo += '<a href="'+data.data[i].html_url+'" title="'+name+'" class="name">'+name+'</a>';
+        			repo += '<a href="'+data.data[i].html_url+'" title="'+name+'" class="gitty-name">'+name+'</a>';
         			
         			if(s.language === true) {
 		        
